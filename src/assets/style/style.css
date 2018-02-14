@@ -41,6 +41,9 @@ background-color: red;
 .inline-g{
 display: flex;
 }
+.inline-gg{
+    display: -webkit-box;
+}
 .imge{
     width: 45px;
     height: 45px;
@@ -69,14 +72,19 @@ display: flex;
     padding: 9px;
     border: 0px;
     border-radius: 30px;
+    padding-right: 20px;
     color: #444;
+    width: 100%;
     font-family: ubuntu;
     position: relative;
 }
 .input-button{
     position: absolute;
-    left: 84%;
-    top: 17%;
+    right: 1%;
+    top: 11%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
 }
 .input-c-button{
 
