@@ -1,0 +1,14 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title>{{photo}} <span *ngIf="photos.length===0">loading...</span> </ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <ion-content class="card-background-page"  padding>
+      <ion-card *ngFor="let p of photos">
+        <!-- <img src="{{p.url}}"/> -->
+        <div class="card-title" padding >{{p.title}}First, install Node.js. Then, install the latest Cordova and Ionic command-line tools in your terminal. Follow the Android and iOS platform</div>
+        <div class="card-subtitle" padding>{{p.id}}</div>
+        <button ion-button (click)="viewComments(p.id)">view comments</button>
+      </ion-card>
+    </ion-content>

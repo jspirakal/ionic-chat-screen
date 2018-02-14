@@ -1,0 +1,83 @@
+.bg-purple{
+background-color: red;
+}
+.bg-white{
+    width: -webkit-fill-available;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px 10px 20px 0px;
+    color: #455;
+    position: relative;
+}
+.bg-other{
+    width: -webkit-fill-available;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px 10px 20px 10px;
+    margin-top: 5px;    
+    position: relative;
+    color: white;
+}
+.bg-white::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left:100%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+.bg-other::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right:100%;
+    border-width: 6px;
+    border-style: solid;
+    border-color:  transparent #00bcd4 transparent transparent;
+}
+.inline-g{
+display: flex;
+}
+.imge{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    /* border: 1px solid white; */
+    /* margin-top: 20px; */
+}
+.text-white{
+    color: white;
+}
+.chat-box{
+    background-color: #454c70;
+    margin-bottom: 30px;
+}
+.input-wrapp{
+    position: fixed;
+    background-color: #2f3551;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 16px;
+    top: 70%;
+}
+.input-circle{
+    background-color: white;
+    padding: 9px;
+    border: 0px;
+    border-radius: 30px;
+    color: #444;
+    font-family: ubuntu;
+    position: relative;
+}
+.input-button{
+    position: absolute;
+    left: 84%;
+    top: 17%;
+}
+.input-c-button{
+
+}
